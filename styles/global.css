@@ -1,5 +1,5 @@
 :root {
-    --background: rgb(224, 234, 247);
+    --background: rgb(214, 242, 249);
     --header-background: rgb(254, 251, 245);
     --primary-font: Corbel, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans',
         'Bitstream Vera Sans', 'Liberation Sans', Verdana, 'Verdana Ref', sans-serif;
@@ -12,24 +12,86 @@ body {
     grid-template-rows: auto 1fr;
 }
 
-header {
-    position: sticky;
-    top: 0;
-    padding: 15px;
-    height: 80px;
-
-    display: flex;
-    align-items: center;
-    gap: 10px;
-
-    background-color: var(--header-background);
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-}
-
-header .logo {
-    height: 100%;
-}
-
 main {
     padding: 20px;
+}
+
+ul {
+    font-family: 'Indie Flower';
+    position: sticky;
+}
+h1 {
+    font-size: 72px;
+    font-family: 'Gloria Hallelujah';
+    color: white;
+    background-color: black;
+    width: 700px;
+    padding-left: 60px;
+    border-radius: 100px;
+    opacity: 0.6;
+}
+
+h2 {
+    font-size: 48px;
+    font-family: 'Gloria Hallelujah';
+}
+p {
+    font-size: 30px;
+    font-family: 'Patrick Hand';
+}
+ul {
+    font-size: 24px;
+    list-style-type: circle;
+    color: rgb(113, 113, 113);
+}
+
+#koraname {
+    text-align: center;
+}
+
+#killuaname {
+    text-align: center;
+}
+
+#koralist {
+    float: right;
+    padding-top: 260px;
+    padding-right: 100px;
+    position: relative;
+}
+
+#killualist {
+    padding-top: 260px;
+    padding-left: 120px;
+    position: relative;
+}
+
+#korapic {
+    width: 300px;
+    border-radius: 20px;
+    position: relative;
+}
+
+#killuapic {
+    width: 300px;
+    float: right;
+    border-radius: 20px;
+    position: relative;
+}
+
+.koraparagraph {
+    float: right;
+    text-align: right;
+    margin-left: 400px;
+    position: absolute;
+    padding-right: 100px;
+    line-height: 32px;
+}
+
+.killuaparagraph {
+    text-align: left;
+    position: absolute;
+    margin-right: 400px;
+    padding-left: 100px;
+    line-height: 32px;
 }
