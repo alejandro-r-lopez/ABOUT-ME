@@ -10,7 +10,6 @@ body {
     background: var(--background);
     display: grid;
     grid-template-rows: auto 1fr;
-    background-image: url('koraandkillua.JPEG');
 }
 
 main {
@@ -22,45 +21,74 @@ ul {
     position: sticky;
 }
 h1 {
+    font-size: 72px;
     font-family: 'Gloria Hallelujah';
+    color: white;
+    background-color: black;
+    width: 700px;
+    padding-left: 60px;
+    border-radius: 100px;
 }
 
 h2 {
+    font-size: 48px;
     font-family: 'Gloria Hallelujah';
 }
 p {
+    font-size: 30px;
     font-family: 'Patrick Hand';
-    position: sticky;
 }
 ul {
+    font-size: 24px;
     list-style-type: circle;
+}
+
+#koraname {
+    padding-left: 100px;
 }
 
 #killuaname {
     text-align: right;
+    padding-right: 200px;
 }
 
 #koralist {
     float: right;
-    padding-top: 100px;
+    padding-top: 200px;
+    padding-right: 100px;
+    position: relative;
+}
+
+#killualist {
+    padding-top: 200px;
+    padding-left: 120px;
+    position: relative;
 }
 
 #korapic {
     width: 300px;
     border-radius: 20px;
+    position: relative;
 }
 
 #killuapic {
     width: 300px;
     float: right;
     border-radius: 20px;
+    position: relative;
 }
 
 #koraparagraph {
     float: right;
-    padding-right: 200px;
+    text-align: right;
+    margin-left: 400px;
+    position: absolute;
+    padding-right: 100px;
 }
 
 #killuaparagraph {
-    padding-left: 200px;
+    text-align: left;
+    position: absolute;
+    margin-right: 400px;
+    padding-left: 100px;
 }
