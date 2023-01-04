@@ -1,5 +1,5 @@
 :root {
-    --background: rgb(224, 234, 247);
+    --background: rgb(214, 242, 249);
     --header-background: rgb(254, 251, 245);
     --primary-font: Corbel, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans',
         'Bitstream Vera Sans', 'Liberation Sans', Verdana, 'Verdana Ref', sans-serif;
@@ -28,6 +28,7 @@ h1 {
     width: 700px;
     padding-left: 60px;
     border-radius: 100px;
+    opacity: 0.6;
 }
 
 h2 {
@@ -41,26 +42,26 @@ p {
 ul {
     font-size: 24px;
     list-style-type: circle;
+    color: rgb(113, 113, 113);
 }
 
 #koraname {
-    padding-left: 100px;
+    text-align: center;
 }
 
 #killuaname {
-    text-align: right;
-    padding-right: 200px;
+    text-align: center;
 }
 
 #koralist {
     float: right;
-    padding-top: 200px;
+    padding-top: 260px;
     padding-right: 100px;
     position: relative;
 }
 
 #killualist {
-    padding-top: 200px;
+    padding-top: 260px;
     padding-left: 120px;
     position: relative;
 }
@@ -78,17 +79,19 @@ ul {
     position: relative;
 }
 
-#koraparagraph {
+.koraparagraph {
     float: right;
     text-align: right;
     margin-left: 400px;
     position: absolute;
     padding-right: 100px;
+    line-height: 32px;
 }
 
-#killuaparagraph {
+.killuaparagraph {
     text-align: left;
     position: absolute;
     margin-right: 400px;
     padding-left: 100px;
+    line-height: 32px;
 }
