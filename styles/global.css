@@ -10,6 +10,7 @@ body {
     background: var(--background);
     display: grid;
     grid-template-rows: auto 1fr;
+    background-image: url('./assets/koraandkillua.jpg');
 }
 
 header {
@@ -32,4 +33,31 @@ header .logo {
 
 main {
     padding: 20px;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+#killuaname {
+    text-align: right;
+}
+
+#koralist {
+    float: right;
+}
+
+#korapic {
+    width: 300px;
+    border-radius: 20px;
+}
+
+#killuapic {
+    width: 300px;
+    float: right;
+    border-radius: 20px;
+}
+
+#koraparagraph {
+    float: right;
 }
